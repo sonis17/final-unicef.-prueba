@@ -1,0 +1,664 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Actuar</title>
+
+	<style type="text/css">
+		
+		*{
+			margin:0;
+			padding:0;
+			box-sizing: border-box;
+		}
+		
+		header{
+			background-color: #48B0B3;
+			color: #FFFFFF;
+			height: 100px;
+			width: 100%;
+			list-style-type: none;
+			text-align: center;
+		}
+		
+		nav{
+			width: 100%;
+			background-color: #E3913F;
+			height: 40px;	
+			padding-left: 55%;
+		}
+		a{
+			color: #FDFDFD;
+			text-decoration: none;
+		}
+		
+		li{
+			list-style-type: none;
+			width: 180px;
+			display: inline-block;
+			text-align: left;
+			padding-top: 0px;
+			font-family: Helvetica, "sans-serif";
+		}
+		
+		ul{
+			padding-top: 30px;
+			padding-left: 10px;
+			padding-right: 10px;
+			text-decoration: none; font-family: Helvetica, "sans-serif";list-style-type: none;
+		}
+		
+		 #menumenu {
+			width: auto;
+			margin-left: 5px;
+			margin-top: 8px;
+			margin-bottom: 0px;
+			margin-right: 10px;
+			padding-top: 0px;
+			padding-right: 0px;
+			padding-left: 0px;
+			padding-bottom: 5px;
+}
+		
+		 #investigacion {
+			width: 230px;
+}
+		
+		
+		#Logo {
+				width: 400px;
+				margin-left: 20px;
+				margin-top: 30px;
+			}
+		
+		#select{
+			width: 160px;
+			height: 36px;
+			margin-left: 610px;
+			padding-top: 8px;
+			padding-right: 5px;
+			padding-left: 5px;
+			padding-bottom: 5px;
+			border-radius: 5px;
+			margin-right: 5px;
+			border: 2px solid;
+			background: none;
+			color: #FFFFFF;
+			}
+		
+		#select2, h5{
+			width: 780px;
+			margin-left: 270px;
+			font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+		
+    #menuheader {
+		margin-left: 605px;
+		margin-top: 10px;
+		border: 2px solid; 
+		width: 200px;
+		height: 36px;
+		padding: 4px;
+		text-align:center;
+		padding-top: 8px;
+		border-radius: 5px;
+}
+		#donacion {
+		width: 130px;
+		height: 36px;
+		text-align: center;
+		color: #FF7E00;
+		background-color: #FFFFFF;
+		padding-top: 8px;
+		border-radius: 5px;
+		margin-left: 10px;
+		height: 35px;
+}
+		option{
+			color: #000000;
+			border-radius: none;
+		}
+		
+		main{ 
+			background-color: #FFFFFF;
+			
+		}
+		
+		section{
+			padding: 30px;
+		}
+		
+		#sectionentrada {
+			padding-top: 20px;
+			text-align: center;
+			width: 1000px;
+			height: 130px;
+			margin-left: 11%;
+			margin-right: auto;
+			margin-top: -25px;
+			box-shadow: 0px 5px 20px grey;
+			border-radius: 5px;
+		}
+		
+		h1{
+			font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+			font-style: normal;
+			font-weight: 400;
+			font-size: 40px;
+			text-align: center;
+			color: #00B2B5;
+		}
+		
+		#titulosgrises {
+			color: #FFFFFF;
+}
+		p{
+			font-family: Helvetica, "sans-serif";
+		}
+		
+		h2{
+			font-family: Helvetica, "sans-serif"; font-weight: bold;
+		}
+		
+   
+    #sectionimagen {
+		padding: 0px;
+}
+    #encima {
+		margin-top: -25px
+}
+    #textosection {
+		padding: 50px 300px; 
+		text-align: center;
+}
+    #recuadros {
+		width: 260px;
+		height: 500px;
+		margin-left: 100px;
+		margin-right: -70px;
+		margin-top: 20px;
+		margin-bottom: 60px;
+		box-shadow: 0px 5px 20px grey;
+		border-radius: 5px;
+		}
+		
+		#sincuadro {
+			width: 260px;
+		height: 500px;
+		margin-left: 100px;
+		margin-right: -70px;
+		margin-top: 20px;
+		margin-bottom: 60px;
+		border-radius: 5px;
+}
+		
+    #recuadrossection {
+		padding-top: 0px;
+}
+    #botoneschiquitos {
+		margin-top: 90px;
+		background-color: #00B2B5;
+		border-radius: 5px;
+		border: none;
+		padding: 2px;
+		
+}
+    #sectiongris {
+		background-color: #AAAAAA;
+		width: 100%;
+		height: 700px;
+		text-align: center;
+}
+    #ddesigualdad {
+		
+		padding-top: 100px;
+		margin-top: 0px;
+		margin-left: 100px;
+		margin-right: 100px;
+		text-align: center;
+		width: 400px;
+		height: 251px;
+}
+		
+    #ajustedetexto {
+		margin-bottom: 100px;
+		padding-bottom: 150px;
+}
+    #sectionblanco {
+		background-color: #FFFFFF;
+		padding-left: 50px;
+		padding-right: 0px;
+		
+}
+    #imagencircular {
+		margin-left: 100px;
+		margin-right: 100px;
+		width: 400px;
+		text-align: center;
+}
+    #partegris2 {
+		background-color: #AAAAAA;
+		width: 100%;
+		height: 600px;
+		margin-top: -300px;
+		padding-left: 0px;
+		padding-right: 0px;
+		padding-top: 100px;
+}
+		#recuadros2{
+			background-color: #E3913F;
+			width: 260px;
+			height: 300px;
+			margin-left: 100px;
+			margin-right: -70px;
+			margin-top: 20px;
+			margin-bottom: 60px;
+			box-shadow: 0px 5px 20px grey;
+			border-radius: 5px;
+		}
+		
+		footer{
+			background-color: #00B2B5;
+			padding: 20px;
+			margin-top: 0px;
+		}
+		
+	.diez{flex-direction: row;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: wrap;}
+	.logo2 {width: 30px;
+	}
+	.botonfooter {text-decoration: none; font-family: Helvetica, "sans-serif";list-style-type: none; color: #FFFFFF;
+	}
+	.titulo2 {margin-bottom: 0px;font-weight: bold; color: #FFFFFF
+	}
+	.caja8 div {margin: 0 auto; text-align: center}
+		
+    
+
+    #botonesgrandes {
+		margin-top: 70px;
+		background-color: #00B2B5;
+		border-radius: 5px;
+		border: none;
+		padding: 10px;
+}
+		
+		table, th, td{
+		color: #00979D;
+		background-color: #FFFFFF;
+		border: none;
+		border-radius: 10px;
+		padding: 10px;
+		text-align: center;
+		font-family: Helvetica, "sans-serif";list-style-type: none;
+		margin-left: 20%;
+		margin-top: 50px;
+		margin-bottom: 0px;	
+	}
+		
+	th{
+		background-color: #FFFFFF;
+		color: #00979D;
+		border: none;
+		width: 200px;
+		height: 50px
+	}
+	
+	td{
+		color: #00979D;
+		background-color: #FFFFFF;
+		border: 5px solid #00B2B5;
+		width: 200px;
+		height: 70px;
+	}
+    #sombra {
+		box-shadow: 1px 0px 5px grey;
+}
+    
+    #tablita {
+		width: 250px; 
+}
+		
+		
+		#submite{
+			width: 170px;
+	height: 60px;
+	padding: 10px 20px;
+	border-radius: 10px;
+	margin-left: 700px;
+	background-color: #F5B755;
+	color: #FFFFFF;
+	cursor: pointer;
+	border: none;
+	font-size: 28px;
+	text-align: center;
+		}
+    #textoderecho {
+		width: 300px;
+	margin-left: 500px;
+		margin-bottom: 100px;
+}
+    #a {
+		color: #48B0B3;
+}
+		#botones24{
+			width: 10px;
+			height: 10px;
+			
+		}
+    #conectate {
+		width: 450px;
+		margin-top: 50px;
+		margin-bottom: 30px;
+}
+    </style>
+	
+</head>
+
+<body>
+	<header>
+    <li><img src="../IMAHENES/Logo Unicef.png" alt="" width="400" height="44" id="Logo"/></li>
+		<li>
+			<select name="select" id="select">
+				<option>Conoce UNICEF</option>
+				<option>Acerca de UNICEF</option>
+				<option>Dónde trabajamos</option>
+				<option>Empleo en UNICEF</option>
+				<option>UNICEF Connect</option>
+				<option>La Juventud Opina</option>
+				<option>Datos deINICEF</option>
+				<option>Apoya a UNICEF</option>
+			</select>
+		</li>
+		<li id="menuheader">CENTRO DE PRENSA</li>
+		<li id="donacion">DONA AHORA</li>
+	</header>
+<nav>
+	  	<li id="menumenu"><a href="unicef que hacemos.html">QUÉ HACEMOS</a></li>
+	    <li id="menumenu"><a href="INVESTIGACION E INFORMES.html">INVESTIGACIÓN E INFORMES</a> </li>
+		<li id="investigacion"><a href="historias.html">HISTORIAS</a></li>
+		<li id="menumenu"><a href="ACTUAR.html">ACTUAR</a></li>
+		<li id="menumenu"><a href="file:///C|/Users/yaren/Downloads/Pagina Unicef/Pagina Unicef/html/Audios.html"><img src="../IMAHENES/pngegg.png" width="18" height="18" alt=""/></a></li>
+</nav>
+	
+<main>
+		<section id="sectionimagen" >
+			<img src="../IMAHENES/Portada actuar.jpg" width="100%" alt=""/>
+		</section>
+	
+		<section id="encima">
+			<li id="sectionentrada">
+			  <h1>Actuar&nbsp;</h1>
+			  <br>
+			  <p>Súmate a UNICEF para contribuir directamente a mejorar la vida de los niños de todo el mundo</p>
+			</li>
+		</section>
+		
+		<section id="textosection">
+		  <p>Ayuda a UNICEF a apoyar y proteger a los niños y familias afectadas por COVID-19</p>
+		</section>
+	
+ 		 <section>
+				<h1>Doná ahora</h1>
+		</section>
+			
+		<section id="recuadrossection">
+			<table border="1" style="border-collapse: collapse; border-radius:0px;">
+				<thead>
+					<tr>
+					<th id="sombra" style="border-radius: 0px">Unica</th>
+					<th style="border-radius: 0px">Mensual</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td style="border-radius: 0px;">MXN450</td>
+						<td style="border-radius: 0px;">MXN600</td>
+						<td style="border-radius: 0px;">MXN800</td>
+						<td style="border-radius: 0px;">Otro</td>
+				</tbody>
+				<tfoot></tfoot>
+			</table>	
+ 		</section>
+	
+	<section id="tablita">
+		<li>
+			<select name="select" id="select2">
+				<option>México - MXN</option>
+				<option>Monaco - USD</option>
+				<option>Namibia - USD</option>
+				<option>Mongolia - MNT</option>
+				<option>Nepal - USD</option>
+				<option>Nicaragua - USD</option>
+				<option>Nigeria - NGN</option>
+				<option>Nueva Zelanda - NZD</option>
+			</select>
+		</li>
+		<h5>Please choose country / currency.</h5>
+	</section>
+	
+	<section>
+		<li><h5>Tu donación es 100% SEGURO</h5></li> 
+		<li><input name="submit" type="submit" id="submite" form formaction="procesamiento.html" formmethod="GET" value="Siguiente"></li>
+	</section>
+	
+	<section>
+			<h1>#Vaccinated: Participa en la campaña global</h1>
+	</section>
+			
+	<section align="center">
+		 <img src="../IMAHENES/cuadrogrande.jpg" width="500"/>
+	</section>
+	
+	<section align="center">
+			<p>¿Vas a vacunarte contra la COVID-19? Únete a la campaña #Vaccinated de UNICEF y comparte lo que significa para ti vacunarte.</p>
+	</section>
+	
+		
+	<section id="sectiongris">
+		<section>
+		  <h1 id="titulosgrises">Participa</h1>
+        </section>
+		 <li id="sincuadro">
+			  <img src="../IMAHENES/u-report_resized_1.jpg" width="260" height="173" alt=""/>
+			  <ul>
+			    <h2>U-report</h2>
+			    <p>&nbsp;</p>
+			    <p>&nbsp;</p>
+<br>
+				<p>Una plataforma global que empodera y conecta a los jóvenes para hablar sobre temas que les importan.</p>
+				  <form action="file:///C|/Users/yaren/Downloads/Pagina Unicef/Pagina Unicef/Auxiliar.html" method="get">
+					<input type="submit" class="enviar" id="botoneschiquitos" value="> Visitar la página">
+	  			</form>
+			  </ul>	
+		  	</li>
+		
+		<li id="sincuadro">
+			  <img src="../IMAHENES/once.png" width="260" height="173" alt=""/>
+			  <ul>
+			    <h2>La Juventud Opina</h2>
+			    <p>&nbsp;</p>
+			    <p>&nbsp;</p>
+<br>
+				<p>Una comunidad global para que los jóvenes aprendan sobre temas de desarrollo y expresen su opinión.</p>
+				<form action="file:///C|/Users/yaren/Downloads/Pagina Unicef/Pagina Unicef/Auxiliar.html" method="get">
+					<input type="submit" class="enviar" id="botoneschiquitos" value="> Visitar la página">
+	  			</form>
+
+			  </ul>	
+		  	</li>
+		
+		<li id="sincuadro">
+			  <img src="../IMAHENES/WCD_2019_Hero_image_SP_3.jpg" width="260" height="173" alt=""/>
+			  <ul>
+			    <h2>Toma una posición</h2>
+			    <p>&nbsp;</p>
+			    <p>&nbsp;</p>
+<br>
+				<p>Prepárate para el día de acción mundial en defensa de los derechos de los niños.</p>
+				<p>&nbsp;</p>
+<form action="file:///C|/Users/yaren/Downloads/Pagina Unicef/Pagina Unicef/Auxiliar.html" method="get">
+					<input type="submit" class="enviar" id="botoneschiquitos" value="> Visitar la página">
+	  			</form>
+
+			  </ul>	
+		  	</li>
+		
+		<li id="sincuadro">
+			  <img src="../IMAHENES/dos.png" width="260" height="173" alt=""/>
+			  <ul>
+			    <h2>Trabaja con nosotros como voluntario</h2>
+			  
+			    <br>
+				<p>Súmate a UNICEF y podrás ayudar a cambiar el mundo en beneficio de los niños.</p>
+				<form action="file:///C|/Users/yaren/Downloads/Pagina Unicef/Pagina Unicef/Auxiliar.html" method="get">
+					<input type="submit" class="enviar" id="botoneschiquitos" value="> Visitar la página">
+	  			</form>
+			  </ul>	
+		  	</li>
+		</section>
+		
+		
+		
+		<section id="sectionblanco">
+		  <h1>&nbsp;</h1>
+		  <h1>Empleo en UNICEF</h1>
+<p>&nbsp;</p>
+		  <p>&nbsp;</p>
+<li><img src="../IMAHENES/UN0265933_0_0.jpg" width="570" height="380" alt=""/></li>
+			<li id="textoderecho">En UNICEF somos apasionados, y estamos comprometidos y orgullosos de nuestra labor. Promover los derechos de todas las niñas y niños no es solo un trabajo, es un llamado. ¡Únete a nosotros<br>
+			  <br>
+			  <p><a href="https://www.unicef.org/es/actuar" id="a" color=#AAAAAA>Explorar carreras en UNICEF</a></p>
+			  <br>
+			<p><a href="https://www.unicef.org/es/actuar" id="a"> Ofertas de empleo actuales</a></p>
+			</li>
+        </section>
+		
+	<section id="sectiongris">
+		<h1 id="titulosgrises">Conéctate</h1>
+		<li id="conectate">Tu voz, unida a la nuestra, puede marcar la diferencia. ¡Conéctate con UNICEF, únete a la conversación y exprésate!</li>
+		<ul>
+		  <a href="https://www.youtube.com/user/UNICEFESPANOL">YouTube</a>
+		</ul>
+		<ul>
+			<a href="https://www.facebook.com/unicefmexico">Facebook</a>
+		</ul>
+		<ul>
+			<a href="https://twitter.com/UNICEFMexico?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">Twitter</a>
+		</ul>
+		<ul>
+			<a href="https://www.instagram.com/unicefmexico/">Instagram</a>
+		</ul>
+		<ul>
+			<a href="https://www.youtube.com/user/UNICEFESPANOL">LinkedIn</a>
+		</ul>
+			</li>
+	</section>
+	
+		<section id="partegris2">
+			<li id="recuadros2">
+				<ul>
+					<p>Página</p>
+      <h2>Estado Mundial de la Infancia</h2>
+			  
+			    <br>
+				<p>Accede a información acerca de la situación niños en el mundo.</p>
+				<p>&nbsp;</p>
+<form action="file:///C|/Users/yaren/Downloads/Pagina Unicef/Pagina Unicef/Auxiliar.html" method="get">
+			<input type="submit" class="enviar" id="botoneschiquitos" value="> Visitar la página">
+		  </form>
+			  </ul>	
+	  	  </li>
+		
+			<li id="recuadros2">
+			  <ul>
+				  <p>Página</p>
+			    <h2>Qué hacemos</h2>
+			    
+			    <br>
+				<p>Conoce la labor de UNICEF en favor de los niños.</p>
+				<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+			<form action="file:///C|/Users/yaren/Downloads/Pagina Unicef/Pagina Unicef/Auxiliar.html" method="get">
+			<input type="submit" class="enviar" id="botoneschiquitos" value="> Visitar la página">
+		  </form>
+			  </ul>	
+		  	</li>
+		  
+		  <li id="recuadros2">
+			  <ul>
+				  <p>Página</p>
+				  <h2>Dónde trabajamos</h2><br>
+				<p>Explora el trabajo de UNICEF en más de 190 países y territorios.</p>
+				<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<form action="file:///C|/Users/yaren/Downloads/Pagina Unicef/Pagina Unicef/Auxiliar.html" method="get">
+			<input type="submit" class="enviar" id="botoneschiquitos" value="> Visitar la página">
+		  </form>
+			</ul>	
+			  
+		  <li id="recuadros2">
+			  <ul>
+				  <p>Enlace</p>
+			    <h2>Empleo en UNICEF</h2>
+			    
+			    <br>
+				<p>¿Quieres cambiar el mundo? Trabaja en UNICEF.</p>
+				<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<form action="file:///C|/Users/yaren/Downloads/Pagina Unicef/Pagina Unicef/Auxiliar.html" method="get">
+			<input type="submit" class="enviar" id="botoneschiquitos" value="> Visitar la página">
+		  </form>
+			</ul>	
+  </section>
+	
+		
+</main>
+<footer>
+	<div class="diez">
+	<div class="caja5"><ul class="botonfooter">
+	<li class="titulo2"><a href="#" class="titulo2">Inicio de UNICEF</a></li>
+	<ul><a href="#" class="botonfooter">Qué hacemos</a></ul>
+	<ul><a href="#" class="botonfooter">Investigación e informes</a></ul>
+	<ul><a href="#" class="botonfooter">Dónde trabajamos</a></ul>
+	<ul><a href="#" class="botonfooter">Centro de prensa</a></ul>
+	</ul></div>
+	<div class="caja6">
+	<ul class="botonfooter">
+	<li class="titulo2"><a href="#" class="titulo2">Acerca de UNICEF</a></li>
+	<ul><a href="#" class="botonfooter">Junta Ejecutiva de UNICEF</a></ul>
+	<ul><a href="#" class="botonfooter">Empleo en UNICEF</a></ul>
+	<ul><a href="#" class="botonfooter">Alianzas con UNICEF</a></li>
+	<ul><a href="#" class="botonfooter">Actuar</a></ul>
+	</ul>
+	</div>
+	<div class="caja7">
+	<ul class="botonfooter">
+	<li class="titulo2"><a href="#" class="titulo2">Otros sitios de UNICEF</a></li>
+	<ul><a href="#" class="botonfooter">UNICEF Connect</a></ul>
+	<ul><a href="#" class="botonfooter">La Juventud Opina</a></ul>
+	<ul><a href="#" class="botonfooter">Datos de UNICEF</a></ul>
+	<ul><a href="#" class="botonfooter">Ayuda a UNICEF</a></ul>
+	<ul><a href="#" class="botonfooter">ЮНИСЕФ на Русском</a></ul>
+	</ul>
+	</div>
+	<div class="caja8">
+	<div><img src="file:///C|/Users/yaren/Downloads/Pagina Unicef/Pagina Unicef/Recursos/Imagenes/MicrosoftTeams-image (4).png" class="logo2">
+	<img src="file:///C|/Users/yaren/Downloads/Pagina Unicef/Pagina Unicef/Recursos/Imagenes/MicrosoftTeams-image (7).png" class="logo2">
+	<img src="file:///C|/Users/yaren/Downloads/Pagina Unicef/Pagina Unicef/Recursos/Imagenes/MicrosoftTeams-image (5).png" class="logo2">
+	<img src="file:///C|/Users/yaren/Downloads/Pagina Unicef/Pagina Unicef/Recursos/Imagenes/MicrosoftTeams-image (6).png" class="logo2">
+	</div>
+	<ul class="botonfooter">
+	<li>Aviso legal - Contacto</li>
+	<ul>Denunciar fraude, abuso, irregularidades</ul>
+	</div>
+	</div>
+</footer>
+</body>
+</html>

@@ -1,0 +1,583 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Investigación e informes</title>
+
+	<style type="text/css">
+		
+		*{
+			margin:0;
+			padding:0;
+			box-sizing: border-box;
+		}
+		
+		header{
+			background-color: #48B0B3;
+			color: #FFFFFF;
+			height: 100px;
+			width: 100%;
+			list-style-type: none;
+			text-align: center;
+		}
+		
+		nav{
+			width: 100%;
+			background-color: #E3913F;
+			height: 40px;	
+			padding-left: 55%;
+		}
+		a{
+			color: #FDFDFD;
+			text-decoration: none;
+		}
+		
+		li{
+			list-style-type: none;
+			width: 180px;
+			display: inline-block;
+			text-align: left;
+			padding-top: 0px;
+			font-family: Helvetica, "sans-serif";
+		}
+		
+		ul{
+			padding-top: 30px;
+			padding-left: 10px;
+			padding-right: 10px;
+		}
+		
+		 #menumenu {
+			width: auto;
+			margin-left: 5px;
+			margin-top: 8px;
+			margin-bottom: 0px;
+			margin-right: 10px;
+			padding-top: 0px;
+			padding-right: 0px;
+			padding-left: 0px;
+			padding-bottom: 5px;
+}
+		
+		 #investigacion {
+			width: 230px;
+}
+		
+		
+		#Logo {
+				width: 400px;
+				margin-left: 20px;
+				margin-top: 30px;
+			}
+		
+		#select{
+			width: 160px;
+			height: 36px;
+			margin-left: 610px;
+			padding-top: 8px;
+			padding-right: 5px;
+			padding-left: 5px;
+			padding-bottom: 5px;
+			border-radius: 5px;
+			margin-right: 5px;
+			border: 2px solid;
+			background: none;
+			color: #FFFFFF;
+			}
+		
+    #menuheader {
+		margin-left: 605px;
+		margin-top: 10px;
+		border: 2px solid; 
+		width: 200px;
+		height: 36px;
+		padding: 4px;
+		text-align:center;
+		padding-top: 8px;
+		border-radius: 5px;
+}
+		#donacion {
+		width: 130px;
+		height: 36px;
+		text-align: center;
+		color: #FF7E00;
+		background-color: #FFFFFF;
+		padding-top: 8px;
+		border-radius: 5px;
+		margin-left: 10px;
+		height: 35px;
+}
+		option{
+			color: #000000;
+			border-radius: none;
+		}
+		
+		main{ 
+			background-color: #FFFFFF;
+			
+		}
+		
+		section{
+			padding: 30px;
+		}
+		
+		#sectionentrada {
+			padding-top: 20px;
+			text-align: center;
+			width: 1000px;
+			height: 130px;
+			margin-left: 11%;
+			margin-right: auto;
+			margin-top: -25px;
+			box-shadow: 0px 5px 20px grey;
+			border-radius: 5px;
+		}
+		
+		h1{
+			font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+			font-style: normal;
+			font-weight: 400;
+			font-size: 40px;
+			text-align: center;
+			color: #00B2B5;
+		}
+		
+		#titulosgrises {
+			color: #FFFFFF;
+}
+		p{
+			font-family: Helvetica, "sans-serif";
+		}
+		
+		h2{
+			font-family: Helvetica, "sans-serif"; font-weight: bold;
+		}
+		
+   
+    #sectionimagen {
+		padding: 0px;
+}
+    #encima {
+		margin-top: -25px
+}
+    #textosection {
+		padding: 50px 300px; 
+		text-align: center;
+}
+    #recuadros {
+		width: 260px;
+		height: 500px;
+		margin-left: 100px;
+		margin-right: -70px;
+		margin-top: 20px;
+		margin-bottom: 60px;
+		box-shadow: 0px 5px 20px grey;
+		border-radius: 5px;
+		}
+		
+    #recuadrossection {
+		padding-top: 0px
+}
+    #botoneschiquitos {
+		margin-top: 90px;
+		background-color: #00B2B5;
+		border-radius: 5px;
+		border: none;
+		padding: 2px;
+		
+}
+    #sectiongris {
+		background-color: #AAAAAA;
+		width: 100%;
+		height: 600px;
+}
+    #ddesigualdad {
+		
+		padding-top: 100px;
+		margin-top: 0px;
+		margin-left: 100px;
+		margin-right: 100px;
+		text-align: center;
+		width: 400px;
+		height: 251px;
+}
+		
+    #ajustedetexto {
+		margin-bottom: 100px;
+		padding-bottom: 150px;
+}
+    #sectionblanco {
+		background-color: #FFFFFF;
+		padding-left: 0px;
+		padding-right: 0px;
+		
+}
+    #imagencircular {
+		margin-left: 100px;
+		margin-right: 100px;
+		width: 400px;
+		text-align: center;
+}
+    #partegris2 {
+		background-color: #AAAAAA;
+		width: 100%;
+		height: 600px;
+		padding-left: 0px;
+		padding-right: 0px;
+		padding-top: 100px;
+}
+		#recuadros2{
+			background-color: #E3913F;
+			width: 260px;
+			height: 300px;
+			margin-left: 100px;
+			margin-right: -70px;
+			margin-top: 20px;
+			margin-bottom: 60px;
+			box-shadow: 0px 5px 20px grey;
+			border-radius: 5px;
+		}
+		
+		footer{
+			background-color: #00B2B5;
+			padding: 20px;
+			margin-top: 1490px;
+		}
+		
+	.diez{flex-direction: row;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: wrap;}
+	.logo2 {width: 30px;
+	}
+	.botonfooter {text-decoration: none; font-family: Helvetica, "sans-serif";list-style-type: none; color: #FFFFFF;
+	}
+	.titulo2 {margin-bottom: 0px;font-weight: bold; color: #FFFFFF
+	}
+	.caja8 div {margin: 0 auto; text-align: center}
+		
+    
+
+    #botonesgrandes {
+		margin-top: 70px;
+		background-color: #00B2B5;
+		border-radius: 5px;
+		border: none;
+		padding: 10px;
+}
+    </style>
+	
+</head>
+
+<body>
+	<header>
+    <li><img src="../IMAHENES/Logo Unicef.png" alt="" width="400" height="44" id="Logo"/></li>
+		<li>
+			<select name="select" id="select">
+				<option>Conoce UNICEF</option>
+				<option>Acerca de UNICEF</option>
+				<option>Dónde trabajamos</option>
+				<option>Empleo en UNICEF</option>
+				<option>UNICEF Connect</option>
+				<option>La Juventud Opina</option>
+				<option>Datos deINICEF</option>
+				<option>Apoya a UNICEF</option>
+			</select>
+		</li>
+		<li id="menuheader">CENTRO DE PRENSA</li>
+		<li id="donacion">DONA AHORA</li>
+	</header>
+<nav>
+	  	<li id="menumenu"><a href="unicef que hacemos.html">QUÉ HACEMOS</a></li>
+		<li id="investigacion"><a href="INVESTIGACION E INFORMES.html">INVESTIGACIÓN E INFORMES</a></li>
+		<li id="menumenu"><a href="historias.html">HISTORIAS</a></li>
+		<li id="menumenu"><a href="ACTUAR.html">ACTUAR</a></li>
+		<li id="menumenu"><a href="file:///C|/Users/yaren/Downloads/Pagina Unicef/Pagina Unicef/html/Audios.html"><img src="../IMAHENES/pngegg.png" width="18" height="18" alt=""/></a></li>
+</nav>
+	
+<main>
+		<section id="sectionimagen" >
+			<img src="../IMAHENES/Portada.jpg" width="100%" alt=""/>
+		</section>
+	
+		<section id="encima">
+			<li id="sectionentrada">
+			  <h1>Investigación e informes</h1><br>
+			  <p>El trabajo de UNICEF se basa en datos empíricos, una investigación rigurosa y un análisis minucioso.</p>
+			</li>
+		</section>
+		
+		<section id="textosection">
+			<p>UNICEF combina la experiencia, las pruebas y el análisis con el fin de crear campañas, informes y programas en los lugares donde resulten más necesarios. Lee nuestros informes para ver cómo los datos pueden llevar al cambio.</p>
+		</section>
+	
+ 		 <section>
+				<h1>Publicaciones destacadas</h1>
+		</section>
+			
+		<section id="recuadrossection">
+			<li id="recuadros">
+			  <img src="../IMAHENES/art 1.jpg" width="260" height="173" alt=""/>
+			  <ul>
+			    <h2>El Estado Mundial de la Infancia 2019</h2>
+			    <p>&nbsp;</p>
+			    <br>
+				<p>¿Qué ves cuando te imaginas a un niño malnutrido? Descubre por qué uno de cada tres niños no está creciendo bien</p>
+					<form action="file:///C|/Users/yaren/Downloads/Pagina Unicef/Pagina Unicef/Auxiliar.html" method="get">
+						<input type="submit" class="enviar" id="botoneschiquitos" value="> Leer la historia">
+					</form>
+			  </ul>	
+		  	</li>
+		
+			<li id="recuadros">
+			  <img src="../IMAHENES/art 2.jpg" width="260" height="173" alt=""/>
+			  <ul>
+			    <h2>Plan Estratégico de UNICEF, 2018–2021&nbsp;</h2>
+			    <p>&nbsp;</p>
+			    <br>
+				<p>¿Qué ves cuando te imaginas a un niño malnutrido? Descubre por qué uno de cada tres niños no está creciendo bien</p>
+					<form action="file:///C|/Users/yaren/Downloads/Pagina Unicef/Pagina Unicef/Auxiliar.html" method="get">
+						<input type="submit" class="enviar" id="botoneschiquitos" value="> Leer la historia">
+					</form>
+			  </ul>	
+		  	</li>
+		  
+		  <li id="recuadros">
+			  <img src="../IMAHENES/art 3.jpg" width="260" height="173" alt=""/>
+			  <ul><h2>Acción Humanitaria para la Infancia 2019 (Resumen)</h2><br>
+				<p>¿Qué ves cuando te imaginas a un niño malnutrido? Descubre por qué uno de cada tres niños no está creciendo bien</p>
+					<form action="file:///C|/Users/yaren/Downloads/Pagina Unicef/Pagina Unicef/Auxiliar.html" method="get">
+						<input type="submit" class="enviar" id="botoneschiquitos" value="> Leer la historia">
+					</form>
+			</ul>	
+	  	  </li>
+			<form align=center action="file:///C|/Users/yaren/Downloads/Pagina Unicef/Pagina Unicef/Auxiliar.html" method="get">
+				<input type="submit" class="enviar" id="botonesgrandes" value="VER TODAS LAS PUBLICACIONES">
+			</form>
+  </section>
+	
+	<section>
+			<h1>Publicaciones destacadas</h1>
+</section>
+			
+		<section id="recuadrossection">
+			<li id="recuadros">
+			  <img src="../IMAHENES/art 4.jpg" width="260" height="173" alt=""/>
+			  <ul>
+			    <h2>Evitemos una década perdida</h2>
+			  
+			    <br>
+				<p>Medidas urgentes para revertir el efecto devastador de la COVID-19 sobre la infancia y la juventud</p>
+				<p>&nbsp;</p>
+<p>&nbsp;</p>
+<form action="file:///C|/Users/yaren/Downloads/Pagina Unicef/Pagina Unicef/Auxiliar.html" method="get">
+			<input type="submit" class="enviar" id="botoneschiquitos" value="> Ver el informe completo">
+		  </form>
+			  </ul>	
+		  	</li>
+		
+			<li id="recuadros">
+			  <img src="../IMAHENES/art 5.jpg" width="260" height="173" alt=""/>
+			  <ul>
+			    <h2>Estado Mundial de la Infancia 2021</h2>
+			    
+			    <br>
+				<p>En mi mente: promover, proteger y cuidar la salud mental de la infancia</p>
+				<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+			<form action="file:///C|/Users/yaren/Downloads/Pagina Unicef/Pagina Unicef/Auxiliar.html" method="get">
+			<input type="submit" class="enviar" id="botoneschiquitos" value="> Ver el informe completo">
+		  </form>
+			  </ul>	
+		  	</li>
+		  
+		  <li id="recuadros">
+			  <img src="../IMAHENES/art 6.jpg" width="260" height="173" alt=""/>
+			  <ul><h2>Niños desarraigados en el Caribe</h2><br>
+				<p>Los fuertes huracanes provocan un desplazamiento forzado de niños, niñas y familias</p>
+				<p>&nbsp;</p>
+<p>&nbsp;</p>
+<form action="file:///C|/Users/yaren/Downloads/Pagina Unicef/Pagina Unicef/Auxiliar.html" method="get">
+			<input type="submit" class="enviar" id="botoneschiquitos" value="> Ver el informe completo">
+		  </form>
+			</ul>	
+			  
+		  <li id="recuadros">
+			  <img src="../IMAHENES/art 7.jpg" width="260" height="173" alt=""/>
+			  <ul>
+			    <h2>El agua bajo el fuego, volumen 2</h2>
+			    
+			    <br>
+				<p>Fortalecer la capacidad del sector para ofrecer una respuesta humanitaria de calidad y previsible</p>
+				<p>&nbsp;</p>
+
+<form action="file:///C|/Users/yaren/Downloads/Pagina Unicef/Pagina Unicef/Auxiliar.html" method="get">
+			<input type="submit" class="enviar" id="botoneschiquitos" value="> Ver el informe completo">
+		  </form>
+			</ul>	
+	  	  </li>
+			  
+		  	</li>
+			<form align=center action="file:///C|/Users/yaren/Downloads/Pagina Unicef/Pagina Unicef/Auxiliar.html" method="get">
+				<input type="submit" class="enviar" id="botonesgrandes" value="VER TODAS LAS PUBLICACIONES">
+			</form>
+  </section>
+		
+	<section id="sectiongris">
+		<section>
+		  <h1 id="titulosgrises">Propiciar cambios en beneficio de los&nbsp;</h1>
+			<h1 id="titulosgrises">niños por medio de los datos</h1>
+        </section>
+		
+		<section id="textosection">
+			<p>UNICEF es la principal fuente mundial de datos y análisis confiables sobre la situación de los niños, y utiliza esta evidencia para impulsar un cambio.</p>
+		</section>
+		
+		<li id="ddesigualdad";>
+		<h2>Desigualdad en los países ricos</h2>
+		<p>UNICEF contribuye a la protección de los derechos de los niños por medio de informes que ponen el punto de mira en datos actualizados.</p>
+		</li>
+<li><img src="../IMAHENES/población.jpg" width="500" height="251" alt=""/></li>
+		<section id="sectionblanco">
+		  <h1>Visita nuestras páginas de herramientas e&nbsp;</h1>
+			<h1>investigación</h1><br><br><br>
+			
+		<li id="imagencircular" >
+			  <img src="../IMAHENES/izquierda.jpg" width="350" height="350" alt=""/>
+			  <ul>
+			    <h2>Lee nuestro blog de investigación</h2>
+			    
+			    <br>
+				<p>Nuestro blog, Evidence for action, presenta las últimas novedades sobre datos, investigación y políticas. Conoce la forma en que UNICEF recopila datos empíricos sobre la vida de los niños de todo el mundo.</p>
+			
+
+			<form action="file:///C|/Users/yaren/Downloads/Pagina Unicef/Pagina Unicef/Auxiliar.html" method="get">
+			<input type="submit" class="enviar" id="botoneschiquitos" value="> Más información">
+		  </form><br><br>
+			  </ul>	
+		  	</li>
+			
+			<li id="imagencircular">
+			  <img src="../IMAHENES/derecha.jpg" width="350" height="350" alt=""/>
+			  <ul>
+			    <h2>Encuestas mundiales de hogares</h2>
+			    
+			    <br>
+				<p>En las encuestas de indicadores múltiples por conglomerados de UNICEF se realizan visitas domiciliarias a fin de obtener los datos más recientes sobre las familias.</p>
+	
+			<form action="file:///C|/Users/yaren/Downloads/Pagina Unicef/Pagina Unicef/Auxiliar.html" method="get">
+			<input type="submit" class="enviar" id="botoneschiquitos" value="> Visitar la página">
+		  </form>
+				  <br><br>
+			  </ul>	
+		  	</li>
+        </section>
+		
+		<section id="partegris2">
+			<h1 id="titulosgrises">Conoce más acerca de UNICEF</h1><br><br>
+			<li id="recuadros2">
+				<ul>
+					<p>Página</p>
+      <h2>Acerca de UNICEF</h2>
+			  
+			    <br>
+				<p>Conoce UNICEF, nuestros aliados y las personas que se suman a nosotros en la lucha en favor de los d</p>
+				<p>&nbsp;</p>
+			
+				<form action="file:///C|/Users/yaren/Downloads/Pagina Unicef/Pagina Unicef/Auxiliar.html" method="get">
+					<input type="submit" class="enviar" id="botoneschiquitos" value="> Visitar la página">
+	  			</form>
+			  </ul>	
+	  	  </li>
+		
+			<li id="recuadros2">
+			  <ul>
+				  <p>Página</p>
+			    <h2>Qué hacemos</h2>
+			    
+			    <br>
+				<p>Conoce la labor de UNICEF en favor de los niños.</p>
+				<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+			<form action="file:///C|/Users/yaren/Downloads/Pagina Unicef/Pagina Unicef/Auxiliar.html" method="get">
+			<input type="submit" class="enviar" id="botoneschiquitos" value="> Visitar la página">
+		  </form>
+			  </ul>	
+		  	</li>
+		  
+		  <li id="recuadros2">
+			  <ul>
+				  <p>Página</p>
+				  <h2>Dónde trabajamos</h2><br>
+				<p>Explora el trabajo de UNICEF en más de 190 países y territorios.</p>
+				<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<form action="file:///C|/Users/yaren/Downloads/Pagina Unicef/Pagina Unicef/Auxiliar.html" method="get">
+			<input type="submit" class="enviar" id="botoneschiquitos" value="> Visitar la página">
+		  </form>
+			</ul>	
+			  
+		  <li id="recuadros2">
+			  <ul>
+				  <p>Página</p>
+			    <h2>Empleo en UNICEF</h2>
+			    
+			    <br>
+				<p>¿Quieres cambiar el mundo? Trabaja en UNICEF.</p>
+				<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<form action="file:///C|/Users/yaren/Downloads/Pagina Unicef/Pagina Unicef/Auxiliar.html" method="get">
+			<input type="submit" class="enviar" id="botoneschiquitos" value="> Visitar la página">
+		  </form>
+			</ul>	
+  </section>
+	
+		
+</main>
+<footer>
+	<div class="diez">
+	<div class="caja5"><ul class="botonfooter">
+	<li class="titulo2"><a href="#" class="titulo2">Inicio de UNICEF</a></li>
+	<ul><a href="#" class="botonfooter">Qué hacemos</a></ul>
+	<ul><a href="#" class="botonfooter">Investigación e informes</a></ul>
+	<ul><a href="#" class="botonfooter">Dónde trabajamos</a></ul>
+	<ul><a href="#" class="botonfooter">Centro de prensa</a></ul>
+	</ul></div>
+	<div class="caja6">
+	<ul class="botonfooter">
+	<li class="titulo2"><a href="#" class="titulo2">Acerca de UNICEF</a></li>
+	<ul><a href="#" class="botonfooter">Junta Ejecutiva de UNICEF</a></ul>
+	<ul><a href="#" class="botonfooter">Empleo en UNICEF</a></ul>
+	<ul><a href="#" class="botonfooter">Alianzas con UNICEF</a></li>
+	<ul><a href="#" class="botonfooter">Actuar</a></ul>
+	</ul>
+	</div>
+	<div class="caja7">
+	<ul class="botonfooter">
+	<li class="titulo2"><a href="#" class="titulo2">Otros sitios de UNICEF</a></li>
+	<ul><a href="#" class="botonfooter">UNICEF Connect</a></ul>
+	<ul><a href="#" class="botonfooter">La Juventud Opina</a></ul>
+	<ul><a href="#" class="botonfooter">Datos de UNICEF</a></ul>
+	<ul><a href="#" class="botonfooter">Ayuda a UNICEF</a></ul>
+	<ul><a href="#" class="botonfooter">ЮНИСЕФ на Русском</a></ul>
+	</ul>
+	</div>
+	<div class="caja8">
+	<div><img src="file:///C|/Users/yaren/Downloads/Pagina Unicef/Pagina Unicef/Recursos/Imagenes/MicrosoftTeams-image (4).png" class="logo2">
+	<img src="file:///C|/Users/yaren/Downloads/Pagina Unicef/Pagina Unicef/Recursos/Imagenes/MicrosoftTeams-image (7).png" class="logo2">
+	<img src="file:///C|/Users/yaren/Downloads/Pagina Unicef/Pagina Unicef/Recursos/Imagenes/MicrosoftTeams-image (5).png" class="logo2">
+	<img src="file:///C|/Users/yaren/Downloads/Pagina Unicef/Pagina Unicef/Recursos/Imagenes/MicrosoftTeams-image (6).png" class="logo2">
+	</div>
+	<ul class="botonfooter">
+	<li>Aviso legal - Contacto</li>
+	<ul>Denunciar fraude, abuso, irregularidades</ul>
+	</div>
+	</div>
+</footer>
+</body>
+</html>
